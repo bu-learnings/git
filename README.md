@@ -1,7 +1,7 @@
 <!-- Headings -->
 # Sample .md file
 ## This is a sub heading
-### Heading 3
+### Another sub heading 
 ---
 
 <!-- italics-->
