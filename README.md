@@ -1,4 +1,7 @@
-<!-- Headings -->
+<!-- 
+Headings
+Extended this comment over multi lines
+ -->
 # Sample .md file
 ## This is a sub heading
 ### Another sub heading 
@@ -20,7 +23,9 @@ ___
 <!--- ___>
 
 <!--BlockQuote-->
->This is a block quote
+>This is a block quote \
+>It can also be implemented over multiple lines \
+>I need to use \\ key for switching to multi line
 ___
 
 <!--Links-->
@@ -45,6 +50,7 @@ ___
 
 <!--Images-->
 ![Image](https://logos-download.com/wp-content/uploads/2020/06/Boston_University_Logo_text.png)
+![ramos](Image/ramos.jpg)
 ___
 
 <!---GitHub Markdown--->
