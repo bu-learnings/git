@@ -18,9 +18,6 @@ Below are sample snippets that can be used to quickly create/edit `.md` file.
 * [Unordered List](#unordered-list)
 * [Inline Code Block](#inline-code-block)
 * [Code Blocks](#code-blocks)
-    * [bash](#bash)
-    * [python](#python)
-    * [javascript](#javascript) 
 * [Tables](#tables)
 * [Task lists](#task-lists)
 
@@ -106,13 +103,13 @@ __text__
 #### Syntax:
 ```
 1. Item 1
-1. Item 2
-1. Item 3
+2. Item 2
+3. Item 3
 ```
 #### Output:
 1. Item 1
-1. Item 2
-1. Item 3
+2. Item 2
+3. Item 3
 
 
 ### Inline Code Block
