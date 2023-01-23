@@ -207,8 +207,7 @@ ___
 ```
 #### Output:
 * [ ] Task 1
-* [ ] Task 2
-* [x] Task 3  
+* [x] Task 2  
 ___
 
 <!---
