@@ -2,11 +2,10 @@
 Headings
 Extended this comment over multi lines
  -->
+
 # Sample .md file
 
 Below are sample snippets that can be used to quickly create/edit `.md` file.
-
----
 
 ## Table of Contents
 
