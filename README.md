@@ -3,6 +3,17 @@ Headings
 Extended this comment over multi lines
  -->
 # Sample .md file
+
+Below are sample snippets that can be used to quickly create/edit `.md` file.
+
+---
+
+## Table of Contents
+
+* [Unordered List](#unordered-list)
+
+---
+
 >Heading syntax : `##Heading_Name`
 >## This is a sub heading
 >### Another sub heading 
@@ -42,6 +53,20 @@ ___
 >* Item 1
 >* Item 2
 >* Item 3
+
+---
+### Unordered List
+#### Syntax:
+```
+* Item 1
+* Item 2
+* Item 3
+```
+#### Output:
+* Item 1
+* Item 2
+* Item 3
+
 ___
 
 <!--Ordered List-->
@@ -59,8 +84,8 @@ ___
 <!--Images-->
 
 >Image syntax : `![image](path)` \
->![Image](https://logos-download.com/wp-content/uploads/2020/06/Boston_University_Logo_text.png)
->![ramos](Image/ramos.jpg)
+>![Image][1]
+>![ramos][2]
 ___
 
 <!---GitHub Markdown--->
@@ -106,4 +131,9 @@ ___
 >* [ ] Task 1
 >* [ ] Task 2
 >* [x] Task 3
-___
+
+<!---
+If it's a URL/path, please ensure we only reference them in documentation while we keep stacking them below.
+--->
+[1]: https://logos-download.com/wp-content/uploads/2020/06/Boston_University_Logo_text.png
+[2]: Image/ramos.jpg
