@@ -7,8 +7,6 @@ Extended this comment over multi lines
 
 Below are sample snippets that can be used to quickly create/edit `.md` file.
 
----
-
 ## Table of Contents
 * [Heading](#heading)
 * [Italics](#italics)
@@ -26,7 +24,7 @@ Below are sample snippets that can be used to quickly create/edit `.md` file.
 * [Tables](#tables)
 * [Task lists](#task-lists)
 
----
+
 
 
 ### Heading
