@@ -8,51 +8,85 @@ Extended this comment over multi lines
 Below are sample snippets that can be used to quickly create/edit `.md` file.
 
 ## Table of Contents
-
+* [Heading](#heading)
+* [Italics](#italics)
+* [Bold](#bold)
+* [Strikethrough](#strikethrough)
+* [BlockQuote](#blockquote)
+* [Links](#links)
+* [Ordered List](#ordered-list)
 * [Unordered List](#unordered-list)
+* [Inline Code Block](#inline-code-block)
+* [Code Blocks](#code-blocks)
+    * [bash](#bash)
+    * [python](#python)
+    * [javascript](#javascript) 
+* [Tables](#tables)
+* [Task lists](#task-lists)
 
-
->Heading syntax : `##Heading_Name`
->## This is a sub heading
->### Another sub heading 
+### Heading
+#### Syntax: 
+```
+#H1
+##H2
+###H3
+```
+#### Output:
+## H1
+### H2
+#### H3
 ---
 
-<!-- italics-->
->Italic synatx : `_ Text _` \
->_This text in italic_
+### Italics
+#### Syntax:
+```
+_ Text _
+```
+#### Output:
+_text_
 ___
 
-<!--bold-->
->Bold synatx : `__ Text __` \
-__This text in bold__
+### Bold
+#### Syntax:
+```
+__ Text __
+```
+#### Output:
+__text__
 ___
 
-<!--strikethrough-->
->Strikethrough syntax : `~~ Text ~~` \
-~~This text is strikethrough~~
+### Strikethrough
+#### Syntax:
+```
+~~ Text ~~
+```
+#### Output:
+~~Text~~
 ___
 
-<!--Horizontal Rule-->
-<!--- ___>
-
-<!--BlockQuote-->
->Block quote syntax : `>Statements` \
->It can also be implemented over multiple lines \
->Need to use \\ key for switching to next line
+### BlockQuote
+#### Syntax:
+```
+>Statement 1
+>Statement 2
+>Statement 3
+```
+#### Output:
+>Statement 1 \
+>Statement 2 \
+>Statement 3
 ___
 
-<!--Links-->
->Link syntax : `[Display_Link_Name](link_pathname "hoverover_text")`\
->[GitHub](https://github.com/KaranVyas "GitHub profile for Karan Vyas")
+### Links
+#### Syntax:
+```
+[Display_Link_Name](link_pathname "hoverover_text")
+```
+#### Output:
+[GitHub](https://github.com/KaranVyas "GitHub profile for Karan Vyas")
+
 ___
 
-<!--Unordered List-->
->Unordered List syntax : `* Item_name`
->* Item 1
->* Item 2
->* Item 3
-
----
 ### Unordered List
 #### Syntax:
 ```
@@ -64,71 +98,118 @@ ___
 * Item 1
 * Item 2
 * Item 3
-
 ___
 
-<!--Ordered List-->
->Ordered List syntax : `1 Item_name`
->1. Item 1
->1. Item 2
->1. Item 3
+### Ordered List
+#### Syntax:
+```
+1. Item 1
+1. Item 2
+1. Item 3
+```
+#### Output:
+1. Item 1
+1. Item 2
+1. Item 3
 ___
 
-<!--Inline Code Block-->
->Inline Code Block syntax : `` \
->`This is a inline code block`
+### Inline Code Block
+#### Syntax:
+```
+`Inline code`
+```
+#### Output:
+`Inline code`
 ___
 
-<!--Images-->
-
->Image syntax : `![image](path)` \
->![Image][1]
->![ramos][2]
+### Image
+#### Syntax:
+```
+![image](path)
+```
+#### Output:
+![Image][1]
+![Image][2]
 ___
 
-<!---GitHub Markdown--->
-
-<!---Code Blocks--->
-
-```bash
-this is a code block for bash
-syntax :  
-    ```lang_name 
+### Code Blocks
+### bash
+#### Syntax:
+\```
+bash \
+    statement(1) \
+    statement(2) \
+    statement(n) \
+\```
+#### Output:
+```bash 
     statement(1)
     statement(2)
     statement(n)
-    ```
-```
+```    
 ___
 
-```python
-this is a code block for python
-print('')
-```
+### python
+#### Syntax:
+\```
+python \
+    statement(1) \
+    statement(2) \
+    statement(n) \
+\```
+#### Output:
+```python 
+    statement(1)
+    statement(2)
+    statement(n)
+```    
 ___
 
-```javascript
-this is a code block for JS
-```
+### javascript
+#### Syntax:
+\```
+javascript \
+    statement(1) \
+    statement(2) \
+    statement(n) \
+\```
+#### Output:
+```javascript 
+    statement(1)
+    statement(2)
+    statement(n)
+```    
 ___
 
-<!---Tables--->
+### Tables
+#### Syntax:
 ```
+| Name  | Attributes  |
+|----   |---          |
+|       |             |
+|       |             |
+|       |             |
+```
+#### Output:
 Table syntax : 
 | Name  | Attributes  |
 |----   |---          |
 | Kohli | Batsman         |
 |  ABD  | Batsman,WK      |
 | Chahal| Spin Bowler     |
-```
 ___
 
-<!---Task lists--->
-
->Task list syntax : `* [] Task_id`
->* [ ] Task 1
->* [ ] Task 2
->* [x] Task 3
+### Task lists
+#### Syntax:
+```
+* [ ] Task_id 
+* [x] Task_id
+```
+#### Output:
+* [ ] Task 1
+* [ ] Task 2
+* [x] Task 3  
+___
 
 <!---
 If it's a URL/path, please ensure we only reference them in documentation while we keep stacking them below.
