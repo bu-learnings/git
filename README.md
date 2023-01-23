@@ -7,6 +7,8 @@ Extended this comment over multi lines
 
 Below are sample snippets that can be used to quickly create/edit `.md` file.
 
+---
+
 ## Table of Contents
 * [Heading](#heading)
 * [Italics](#italics)
@@ -24,6 +26,9 @@ Below are sample snippets that can be used to quickly create/edit `.md` file.
 * [Tables](#tables)
 * [Task lists](#task-lists)
 
+---
+
+
 ### Heading
 #### Syntax: 
 ```
@@ -35,7 +40,7 @@ Below are sample snippets that can be used to quickly create/edit `.md` file.
 ## H1
 ### H2
 #### H3
----
+
 
 ### Italics
 #### Syntax:
@@ -44,7 +49,7 @@ _ Text _
 ```
 #### Output:
 _text_
-___
+
 
 ### Bold
 #### Syntax:
@@ -53,7 +58,7 @@ __ Text __
 ```
 #### Output:
 __text__
-___
+
 
 ### Strikethrough
 #### Syntax:
@@ -62,7 +67,7 @@ ___
 ```
 #### Output:
 ~~Text~~
-___
+
 
 ### BlockQuote
 #### Syntax:
@@ -75,7 +80,7 @@ ___
 >Statement 1 \
 >Statement 2 \
 >Statement 3
-___
+
 
 ### Links
 #### Syntax:
@@ -85,7 +90,6 @@ ___
 #### Output:
 [GitHub](https://github.com/KaranVyas "GitHub profile for Karan Vyas")
 
-___
 
 ### Unordered List
 #### Syntax:
@@ -98,7 +102,7 @@ ___
 * Item 1
 * Item 2
 * Item 3
-___
+
 
 ### Ordered List
 #### Syntax:
@@ -111,7 +115,7 @@ ___
 1. Item 1
 1. Item 2
 1. Item 3
-___
+
 
 ### Inline Code Block
 #### Syntax:
@@ -120,7 +124,7 @@ ___
 ```
 #### Output:
 `Inline code`
-___
+
 
 ### Image
 #### Syntax:
@@ -130,10 +134,12 @@ ___
 #### Output:
 ![Image][1]
 ![Image][2]
-___
+
 
 ### Code Blocks
-### bash
+
+We can do this for any language. For example: Incase, of bash:
+
 #### Syntax:
 \```
 bash \
@@ -147,39 +153,7 @@ bash \
     statement(2)
     statement(n)
 ```    
-___
 
-### python
-#### Syntax:
-\```
-python \
-    statement(1) \
-    statement(2) \
-    statement(n) \
-\```
-#### Output:
-```python 
-    statement(1)
-    statement(2)
-    statement(n)
-```    
-___
-
-### javascript
-#### Syntax:
-\```
-javascript \
-    statement(1) \
-    statement(2) \
-    statement(n) \
-\```
-#### Output:
-```javascript 
-    statement(1)
-    statement(2)
-    statement(n)
-```    
-___
 
 ### Tables
 #### Syntax:
@@ -197,7 +171,7 @@ Table syntax :
 | Kohli | Batsman         |
 |  ABD  | Batsman,WK      |
 | Chahal| Spin Bowler     |
-___
+
 
 ### Task lists
 #### Syntax:
@@ -208,7 +182,7 @@ ___
 #### Output:
 * [ ] Task 1
 * [x] Task 2  
-___
+
 
 <!---
 If it's a URL/path, please ensure we only reference them in documentation while we keep stacking them below.
