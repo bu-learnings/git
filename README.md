@@ -11,7 +11,6 @@ Below are sample snippets that can be used to quickly create/edit `.md` file.
 
 * [Unordered List](#unordered-list)
 
----
 
 >Heading syntax : `##Heading_Name`
 >## This is a sub heading
