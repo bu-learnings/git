@@ -44,6 +44,7 @@ ___
 |---|---|
 |Main branch|It is the main branch|
 |Feature Branch|replica of main branch, where we make commits|
+___
 ![image][1]
 ___
 ## git workflow
